@@ -1,1 +1,302 @@
+## Project Name
+
+2D Graphics Editor in C using Character Array Canvas
+
+## Development Environment
+
+* Language: C
+* Editor: Visual Studio Code
+* Version Control: Git & GitHub
+* AI Assistant: ChatGPT
+
+---
+
+## Phase 1: Project Planning
+
+### Query
+
+I need to develop a mini project called "2D Graphics Editor". The assignment requires a menu-driven program using a 2D character array. What should be my development plan?
+
+### Guidance Received
+
+* Start by creating the canvas structure.
+* Keep the canvas as a 2D character array.
+* Initialize every cell with '_'.
+* Build and test one feature at a time.
+* Add menu options gradually instead of writing everything together.
+
+### Action Taken
+
+Created the basic project structure and initialized the drawing canvas.
+
+---
+
+## Phase 2: GitHub Repository Setup
+
+### Query
+
+How should I connect my local project to GitHub and maintain version history properly?
+
+### Guidance Received
+
+* Initialize Git repository.
+* Create meaningful commits.
+* Push changes after completing each feature.
+* Maintain a readable commit history.
+
+### Action Taken
+
+Created GitHub repository and started maintaining commits feature-wise.
+
+---
+
+## Phase 3: Canvas Implementation
+
+### Query
+
+How can I create a drawing area using a character array?
+
+### Guidance Received
+
+* Create a global 2D array.
+* Implement initializeCanvas().
+* Implement displayCanvas().
+* Create a simple menu to test functionality.
+
+### Result
+
+The editor could display a blank drawing area filled with underscores.
+
+---
+
+## Phase 4: User Interface Improvements
+
+### Query
+
+How can I improve the menu-driven interaction?
+
+### Guidance Received
+
+* Use a continuous loop.
+* Add input validation.
+* Handle invalid choices.
+* Improve prompts and formatting.
+
+### Result
+
+The program became easier to use and more robust.
+
+---
+
+## Phase 5: Rectangle Drawing
+
+### Query
+
+How can I draw a rectangle on a character-based canvas?
+
+### Guidance Received
+
+* Ask the user for position and dimensions.
+* Use '*' characters for drawing.
+* Add a dedicated menu option.
+
+### Result
+
+Rectangle drawing was successfully implemented and tested.
+
+---
+
+## Phase 6: Line Drawing
+
+### Query
+
+How can I add support for drawing lines?
+
+### Guidance Received
+
+* Accept start and end coordinates.
+* Draw line points using '*'.
+* Keep implementation separate from menu logic.
+
+### Result
+
+Line drawing functionality was added to the editor.
+
+---
+
+## Phase 7: Triangle Drawing
+
+### Query
+
+How can I draw triangles without creating a completely new algorithm?
+
+### Guidance Received
+
+* Reuse the line drawing function.
+* Connect three vertices.
+* Draw three edges.
+
+### Result
+
+Triangle support was added successfully.
+
+---
+
+## Phase 8: Circle Drawing
+
+### Query
+
+How can a circle be represented using characters?
+
+### Guidance Received
+
+* Use center coordinates and radius.
+* Apply a mathematical distance calculation.
+* Plot boundary points using '*'.
+
+### Result
+
+Circle drawing functionality was integrated into the project.
+
+---
+
+## Phase 9: Object Management
+
+### Query
+
+The assignment requires add, delete and modify operations. How should I store shapes?
+
+### Guidance Received
+
+* Create a structure for graphical objects.
+* Store coordinates and dimensions.
+* Assign a unique ID to every object.
+* Maintain an object list.
+
+### Result
+
+A shape management system was added to the project.
+
+---
+
+## Phase 10: Delete Operation
+
+### Query
+
+How can an object be removed from the drawing?
+
+### Guidance Received
+
+* Delete using object ID.
+* Remove object from storage.
+* Rebuild the canvas from remaining objects.
+
+### Result
+
+Objects could be deleted successfully.
+
+---
+
+## Phase 11: Modify Operation
+
+### Query
+
+How can an existing shape be edited?
+
+### Guidance Received
+
+* Locate object using ID.
+* Update stored values.
+* Redraw the canvas.
+
+### Result
+
+Shape modification functionality was completed.
+
+---
+
+## Phase 12: Final Enhancements
+
+### Query
+
+What additional improvements can be added before submission?
+
+### Guidance Received
+
+* Add canvas clearing option.
+* Improve comments.
+* Create README documentation.
+* Verify compilation and execution.
+
+### Result
+
+Project was cleaned up and documented.
+
+---
+
+## GitHub Development History
+
+Feature milestones completed:
+
+1. Canvas initialization
+2. Canvas display
+3. Menu improvements
+4. Rectangle drawing
+5. Line drawing
+6. Triangle drawing
+7. Circle drawing
+8. Object storage
+9. Object listing
+10. Object deletion
+11. Object modification
+12. Canvas clearing
+13. Documentation updates
+
+---
+
+## Final Verification
+
+The following checks were performed before submission:
+
+✔ Program compiles without errors
+
+✔ Rectangle drawing tested
+
+✔ Line drawing tested
+
+✔ Triangle drawing tested
+
+✔ Circle drawing tested
+
+✔ Delete operation tested
+
+✔ Modify operation tested
+
+✔ Object listing tested
+
+✔ GitHub repository updated
+
+✔ README file included
+
+✔ Multiple commits pushed successfully
+
+---
+
+## Outcome
+
+The final application satisfies all assignment requirements:
+
+* Menu Driven Interface
+* 2D Character Canvas
+* Rectangle Drawing
+* Line Drawing
+* Triangle Drawing
+* Circle Drawing
+* Object Addition
+* Object Deletion
+* Object Modification
+* Canvas Display
+* Canvas Clearing
+* GitHub Version Control
+* Project Documentation
 
