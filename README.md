@@ -6,7 +6,6 @@ CSE-B Mini Project source code, documentation, and reports
 This project is a menu-driven 2D Graphics Editor developed in C using a 2D character array as the drawing canvas.
 
 The canvas is initialized with the underscore character (`_`) and graphical objects are drawn using the asterisk character (`*`).
-
 ### Features
 
 * Draw Rectangle
