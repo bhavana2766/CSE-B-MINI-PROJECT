@@ -84,11 +84,5 @@ gcc main.c -o editor -lm
 
 Name: G BHAVANA REDDY
 
-SRN: R25EF082
 
-Section: CSE-B
-
-### License
-
-This project is submitted as part of the Mini Project coursework and is intended for academic purposes only.
 
